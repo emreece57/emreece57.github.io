@@ -1,33 +1,55 @@
 <!DOCTYPE html>
-
 <html lang="de">
+  <head>
+    <title>Tagebuch</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style-main.css" />
+  </head>
 
-    <head>
-        <title>Tagebuch</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style-main.css">
-    </head>
+  <body>
+    <h1 id="main-title">Unser Tagebuch</h1>
 
-    <body>
+    <div id="images">
+      <h2 id="images-title">Fotogalerie</h2>
 
-       <h1 id="main-title">sdasd</h1> 
+      <!-- Eintrag 1: mit mehreren Bildern -->
+      <div class="bild">
+        <h3>Titel 1</h3>
 
-       <div id="images">
-            <h2 id="images-title">Fotogalerie</h2>
+        <div class="slider">
+          <button class="slider-btn prev" type="button" aria-label="Vorheriges Bild">&#10094;</button>
 
-            <div id="bild1">
-                <h3>Titel 1</h3>
-                <img src="images/bild.png">
-                <p>sdscdddddddddddddddddddddddsssssssssssssssssa</p>
-            </div>
+          <div class="slides">
+            <img src="images/bild.png" alt="Bild 1" class="active" />
+            <img src="images/bild2.png" alt="Bild 2" />
+            <img src="images/bild.png" alt="Bild 3" />
+          </div>
 
-            <div id="bild1">
-                <h3>Titel 1</h3>
-                <img src="images/bild.png">
-                <p>sdsa</p>
-            </div>
-       </div>
+          <button class="slider-btn next" type="button" aria-label="Nächstes Bild">&#10095;</button>
+        </div>
 
-    </body>
+        <p>sdscdddddddddddddddddddddddsssssssssssssssssa</p>
+      </div>
 
+      <!-- Eintrag 2: nur ein Bild (Buttons kannst du trotzdem lassen oder weglassen) -->
+      <div class="bild">
+        <h3>Titel 2</h3>
+
+        <div class="slider">
+          <button class="slider-btn prev" type="button" aria-label="Vorheriges Bild">&#10094;</button>
+
+          <div class="slides">
+            <img src="images/bild.png" alt="Bild 1" class="active" />
+          </div>
+
+          <button class="slider-btn next" type="button" aria-label="Nächstes Bild">&#10095;</button>
+        </div>
+
+        <p>sdsa</p>
+      </div>
+    </div>
+
+    <!-- externes JS -->
+    <script src="slider.js"></script>
+  </body>
 </html>
