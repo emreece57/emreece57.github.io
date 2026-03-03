@@ -63,7 +63,7 @@ async function doLogin() {
     sessionStorage.setItem("authed", "1");
     sessionStorage.setItem("pw", pw);
 
-    window.location.href = "index.html";
+    window.location.href = "app.html";
   } catch (e) {
     console.error(e);
     msg.textContent = "Fehler beim Login.";

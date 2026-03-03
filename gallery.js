@@ -54,13 +54,13 @@ function sortByTitle(a, b) {
 (async () => {
   // Guard
   if (sessionStorage.getItem("authed") !== "1") {
-    window.location.href = "login.html";
+    window.location.href = "index.html";
     return;
   }
 
   const pw = sessionStorage.getItem("pw");
   if (!pw) {
-    window.location.href = "login.html";
+    window.location.href = "index.html";
     return;
   }
 
@@ -133,5 +133,5 @@ function sortByTitle(a, b) {
   // Falls Entschlüsselung / PW falsch / sonstwas: zurück zum Login
   sessionStorage.removeItem("authed");
   sessionStorage.removeItem("pw");
-  window.location.href = "login.html";
+  window.location.href = "index.html";
 });
