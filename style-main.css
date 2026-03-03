@@ -23,6 +23,22 @@ p {
   font-size: 3em;
 }
 
+#introduction {
+  background-color: white;
+  width: 70vw;
+  margin-bottom: 5vw;
+  border: 2px solid  black;
+  box-shadow: 5px 5px 50px black;
+  text-align: center;
+}
+#introduction p {
+  color: black;
+  font-family: cursive;
+  margin: 5px;
+  font-style: italic;
+}
+
+
 /* Galerie-Container */
 #images {
   display: flex;
