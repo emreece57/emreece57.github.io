@@ -2,43 +2,92 @@
   {
     "title": "bild",
     "file": "encrypted/bild.bin",
-    "iv": "glRaPS7S4wo2g+LE",
+    "iv": "JDYuCBVHpWC3ihEf",
     "mime": "image/png",
     "album": ""
   },
   {
     "title": "bild2",
     "file": "encrypted/bild2.bin",
-    "iv": "ZuOxtNCy5eEcdKqW",
+    "iv": "U1dCJLlj5fIoSX6S",
     "mime": "image/png",
     "album": ""
   },
   {
     "title": "02032026-1",
     "file": "encrypted/02.03.2026/02032026-1.bin",
-    "iv": "AfuTTZCM0aKbpSxG",
+    "iv": "1hGmi+q8i8HjCiyF",
     "mime": "image/jpeg",
     "album": "02.03.2026"
   },
   {
     "title": "02032026-2",
     "file": "encrypted/02.03.2026/02032026-2.bin",
-    "iv": "AHSvSmHMexmv/RzE",
+    "iv": "KZ4EOQp13nEjDOWt",
     "mime": "image/jpeg",
     "album": "02.03.2026"
   },
   {
     "title": "02032026-3",
     "file": "encrypted/02.03.2026/02032026-3.bin",
-    "iv": "rg9Una2Nw4Tf5J+A",
+    "iv": "qxX2HlGneqcIPb5L",
     "mime": "image/jpeg",
     "album": "02.03.2026"
   },
   {
     "title": "02032026-4",
     "file": "encrypted/02.03.2026/02032026-4.bin",
-    "iv": "SqlIZn5/z8M2lNMR",
+    "iv": "Ke6z26EeKBIVlDuR",
     "mime": "image/jpeg",
     "album": "02.03.2026"
+  },
+  {
+    "title": "06022026-1",
+    "file": "encrypted/06.02.2026/06022026-1.bin",
+    "iv": "m6X1/2J+QOWJtIMU",
+    "mime": "image/jpeg",
+    "album": "06.02.2026"
+  },
+  {
+    "title": "06022026-2",
+    "file": "encrypted/06.02.2026/06022026-2.bin",
+    "iv": "gF32gNcWEPqJgnCH",
+    "mime": "image/jpeg",
+    "album": "06.02.2026"
+  },
+  {
+    "title": "06022026-3",
+    "file": "encrypted/06.02.2026/06022026-3.bin",
+    "iv": "ASkWt5pjcH08ssgx",
+    "mime": "image/jpeg",
+    "album": "06.02.2026"
+  },
+  {
+    "title": "06022026-4",
+    "file": "encrypted/06.02.2026/06022026-4.bin",
+    "iv": "nAo3LtRTZOAlmVgi",
+    "mime": "image/jpeg",
+    "album": "06.02.2026"
+  },
+  {
+    "title": "06022026-5",
+    "file": "encrypted/06.02.2026/06022026-5.bin",
+    "iv": "QV9cX65GHW5CQovW",
+    "mime": "image/jpeg",
+    "album": "06.02.2026"
+  },
+  {
+    "title": "06022026-6",
+    "file": "encrypted/06.02.2026/06022026-6.bin",
+    "iv": "vpkcNrEOs6PpgmsI",
+    "mime": "image/jpeg",
+    "album": "06.02.2026"
+  },
+  {
+    "title": "06022026-7",
+    "file": "encrypted/06.02.2026/06022026-7.bin",
+    "iv": "HnT41c8iT7RQ4reN",
+    "mime": "image/jpeg",
+    "album": "06.02.2026"
   }
 ]
