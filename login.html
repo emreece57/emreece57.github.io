@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style-main.css" />
+  </head>
+
+  <body>
+    <h1 id="main-title">Privates Album</h1>
+
+    <div id="images" style="max-width: 600px;">
+      <h2 id="images-title">Login</h2>
+
+      <div class="bild" style="width: 100%;">
+        <p>Passwort eingeben:</p>
+
+        <input id="pw" type="password" autocomplete="current-password"
+               style="width: min(90vw, 420px); padding: 12px; border:2px solid black; background:#0f1130; color:white; font-size:1rem;">
+
+        <button id="loginBtn" class="slider-btn" style="margin-top: 12px;">
+          Öffnen
+        </button>
+
+        <p id="msg" style="margin-top: 10px;"></p>
+      </div>
+    </div>
+
+    <script src="auth.js"></script>
+  </body>
+</html>

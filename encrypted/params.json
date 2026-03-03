@@ -1,0 +1,5 @@
+{
+  "PBKDF2_ITERS": 200000,
+  "AUTH_SALT_B64": "+xZZAyGFYkc6hGgkfPrOpA==",
+  "ENC_SALT_B64": "zUgTKrKLdb/N3Zanuu81lg=="
+}

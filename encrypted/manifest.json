@@ -1,0 +1,44 @@
+[
+  {
+    "title": "bild",
+    "file": "encrypted/bild.bin",
+    "iv": "glRaPS7S4wo2g+LE",
+    "mime": "image/png",
+    "album": ""
+  },
+  {
+    "title": "bild2",
+    "file": "encrypted/bild2.bin",
+    "iv": "ZuOxtNCy5eEcdKqW",
+    "mime": "image/png",
+    "album": ""
+  },
+  {
+    "title": "02032026-1",
+    "file": "encrypted/02.03.2026/02032026-1.bin",
+    "iv": "AfuTTZCM0aKbpSxG",
+    "mime": "image/jpeg",
+    "album": "02.03.2026"
+  },
+  {
+    "title": "02032026-2",
+    "file": "encrypted/02.03.2026/02032026-2.bin",
+    "iv": "AHSvSmHMexmv/RzE",
+    "mime": "image/jpeg",
+    "album": "02.03.2026"
+  },
+  {
+    "title": "02032026-3",
+    "file": "encrypted/02.03.2026/02032026-3.bin",
+    "iv": "rg9Una2Nw4Tf5J+A",
+    "mime": "image/jpeg",
+    "album": "02.03.2026"
+  },
+  {
+    "title": "02032026-4",
+    "file": "encrypted/02.03.2026/02032026-4.bin",
+    "iv": "SqlIZn5/z8M2lNMR",
+    "mime": "image/jpeg",
+    "album": "02.03.2026"
+  }
+]

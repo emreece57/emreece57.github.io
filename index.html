@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script>
+      if (sessionStorage.getItem("authed") !== "1") {
+        window.location.href = "login.html";
+      }
+    </script>
+
+    <title>Tagebuch</title>
+    <link rel="stylesheet" href="style-main.css" />
+  </head>
+
+  <body>
+    <h1 id="main-title">Unser Tagebuch</h1>
+
+    <div id="images">
+      <h2 id="images-title">Fotogalerie</h2>
+      <!-- Inhalte werden von gallery.js aus encrypted/manifest.json generiert -->
+    </div>
+
+    <script src="slider.js"></script>
+    <script src="gallery.js"></script>
+  </body>
+</html>
