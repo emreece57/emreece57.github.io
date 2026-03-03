@@ -52,18 +52,24 @@ p {
 }
 
 .slides {
-  /* Bild bekommt feste "Bühne" */
+  width: min(90vw, 600px);
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-}
 
-/* Alle Bilder: verstecken */
-.slides img {
-  display: none;
-  width: 40vw;
   border: 3px solid black;
   box-shadow: 5px 5px 50px black;
+
+  background: #0f1130;   /* Balkenfarbe statt hässlich */
+}
+
+.slides img {
+  display: none;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;    /* <-- wichtig */
 }
 
 /* Nur aktives Bild zeigen */
